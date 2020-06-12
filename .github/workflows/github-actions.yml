@@ -24,8 +24,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
         
     - run: npm install
-    - run: npm install -g grunt-cli
+    - run: npm install -g grunt-cli 
     - run: npm install -g adapt-cli
     - run: adapt install
     - run: grunt build
-    - run: npm run deploy
+    
+    - run: |
+        git config --global user.email ${{secrets.EMAIL}}
+        git config --global user.name ${{secrets.USERNAME}}
+        npm run deploy
