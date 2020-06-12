@@ -4,10 +4,11 @@
     "description": "Adapt Learning output framework",
     "repository": {
         "type": "git",
-        "url": "git://github.com/adaptlearning/adapt_framework.git"
+        "url": "git://github.com/NayanKhedkar/framework_test.git"
     },
     "scripts": {
-        "lint": "node node_modules/eslint/bin/eslint.js ./"
+        "lint": "node node_modules/eslint/bin/eslint.js ./",
+        "deploy":"gh-pages -d build"
     },
     "authoringTool": ">=0.8",
     "license": "GPL-3.0",
@@ -51,7 +52,8 @@
         "requirejs": "^2.3.6",
         "time-grunt": "^2.0.0",
         "underscore": "^1.9.1",
-        "underscore-deep-extend": "^1.1.5"
+        "underscore-deep-extend": "^1.1.5",
+        "gh-pages":"^1.2.0"
     },
     "devDependencies": {
         "eslint": "^6.0.1",
