@@ -52,8 +52,7 @@
         "requirejs": "^2.3.6",
         "time-grunt": "^2.0.0",
         "underscore": "^1.9.1",
-        "underscore-deep-extend": "^1.1.5",
-        "gh-pages":"^1.2.0"
+        "underscore-deep-extend": "^1.1.5"
     },
     "devDependencies": {
         "eslint": "^6.0.1",
@@ -62,6 +61,7 @@
         "eslint-plugin-node": "^9.1.0",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-requirejs": "^4.0.0",
-        "eslint-plugin-standard": "^4.0.0"
+        "eslint-plugin-standard": "^4.0.0",
+        "gh-pages": "^1.2.0"
     }
 }
