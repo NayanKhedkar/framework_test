@@ -22,6 +22,7 @@ require.config({
       coreModels: 'core/js/models',
       coreCollections: 'core/js/collections',
       coreHelpers: 'core/js/helpers'
+      
     }
   }
 });
