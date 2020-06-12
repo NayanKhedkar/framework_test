@@ -27,7 +27,7 @@ jobs:
     - run: npm install -g grunt-cli 
     - run: npm install -g adapt-cli
     - run: adapt install
-    - run: grunt buildgit remote set-url origin origin  https://github.com/NayanKhedkar/framework_test.git
+    - run: grunt build
     
     - run: |
         git config --global user.name ${{secrets.USERNAME}}
