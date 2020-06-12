@@ -23,11 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         
-    - name: Install dependencies
     - run: npm ci grunt-cli adapt-cli
-    - name: install adapt
     - run:  adapt install 
-    - name: build the files
     - run:  grunt build
-    - name: deploy build
     - run: npm run deploy
